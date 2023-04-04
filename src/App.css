@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  padding: 10px;
+}
+img{
+  width: 100%;
+  height: 40%;
+}
+
+.post-container{
+  max-width: 1200px;
+  margin: 20px auto;
+  display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 30px;
+}
+
+.post{
+  border: 2px solid black;
+  height: fit-content;
+}
+
+.detail-container{
+  width: 300px;
+  height: fit-content;
+   padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 2px solid black;
+
+}
+.detail-container img{
+  width: 100%;
+  height: 50%;
+ 
+}
