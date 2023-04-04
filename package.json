@@ -1,6 +1,5 @@
 {
   "name": "f4",
-  "homepage": "https://zaidloni.github.io/contest",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -20,8 +19,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

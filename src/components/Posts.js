@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Post from "./Post";
 import { useDispatch, useSelector } from "react-redux";
 import { addData } from "../utils/appSlice";

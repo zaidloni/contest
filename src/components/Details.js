@@ -14,7 +14,7 @@ const Details = () => {
       <h1>Details Page For Post With ID: {id} </h1>
 
       <div className="detail-container">
-        <img src={`https://picsum.photos/200?random=` + id} alt="image" />
+        <img src={`https://picsum.photos/200?random=` + id}  />
         <p>
           <b>User Id:</b>
           {requiredData.userId}
