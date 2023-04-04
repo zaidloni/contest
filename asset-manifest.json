@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/zaidloni/contest/static/css/main.65ffccf1.css",
-    "main.js": "/zaidloni/contest/static/js/main.0996b39d.js",
+    "main.js": "/zaidloni/contest/static/js/main.64511bbb.js",
     "index.html": "/zaidloni/contest/index.html",
     "main.65ffccf1.css.map": "/zaidloni/contest/static/css/main.65ffccf1.css.map",
-    "main.0996b39d.js.map": "/zaidloni/contest/static/js/main.0996b39d.js.map"
+    "main.64511bbb.js.map": "/zaidloni/contest/static/js/main.64511bbb.js.map"
   },
   "entrypoints": [
     "static/css/main.65ffccf1.css",
-    "static/js/main.0996b39d.js"
+    "static/js/main.64511bbb.js"
   ]
 }
