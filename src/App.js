@@ -8,12 +8,13 @@ import store from './utils/store'
 
 
 function App() {
-  return (
+  return (  
     <Provider store = {store}>
     <Header/>
+    <Posts/>
     <Routes>
-    <Route path='/contest' element = {<Posts/>}/>
-    <Route path = 'contest/item/:id' element = {<Details/>}/>
+    {/* <Route  path='/contest' element = {<Posts/>}/> */}
+    <Route path = '/item/:id' element = {<Details/>}/>
     </Routes>
     </Provider>
   )
