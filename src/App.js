@@ -12,8 +12,8 @@ function App() {
     <Provider store = {store}>
     <Header/>
     <Routes>
-    <Route path='/' element = {<Posts/>}/>
-    <Route path = '/item/:id' element = {<Details/>}/>
+    <Route path='/contest' element = {<Posts/>}/>
+    <Route path = 'contest/item/:id' element = {<Details/>}/>
     </Routes>
     </Provider>
   )
